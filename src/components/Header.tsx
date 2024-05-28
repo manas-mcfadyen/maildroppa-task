@@ -20,6 +20,7 @@ const Header = () => {
           width={30}
           height={30}
           alt="Logo"
+          className="md:hidden"
         ></Image>
 
         <div className="hidden  md:flex  md:gap-10">
@@ -30,10 +31,7 @@ const Header = () => {
         </div>
       </nav>
       {showModal && (
-        <div
-          onClick={() => setShowmodal(!showModal)}
-          className="bg-white flex flex-col w-full text-black  p-5 text-md right-[-4.5rem] border-[1px] border-gray-400 rounded-md"
-        >
+        <div className="bg-white flex flex-col w-full text-black  p-5 text-md right-[-4.5rem] border-[1px] border-gray-400 rounded-md">
           <Tab href="/about">About Us</Tab>
           <Tab href="/contact">Contact Us</Tab>
           <Tab href="https://maildroppa.com/pricing">Pricing</Tab>
