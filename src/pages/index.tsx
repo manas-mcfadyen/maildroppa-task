@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <Layout>
       <main
-        className={`flex min-h-screen w-full md:mx-auto md:w-2/3 bg-white flex-col  p-10 md:py-24 ${inter.className}`}
+        className={`flex min-h-screen w-full md:mx-auto min-w-fit md:w-2/3 bg-white flex-col  p-10 md:py-24 ${inter.className}`}
       >
         <div>
           <h1 className="text-3xl font-medium w-full mb-2.5">Signup Forms</h1>
