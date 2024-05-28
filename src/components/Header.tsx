@@ -2,6 +2,7 @@ import Image from "next/image";
 import React, { useState } from "react";
 import Tab from "./common/Tabs";
 import useDevice from "@/utils/hooks/useDevice";
+import Link from "next/link";
 
 const Header = () => {
   const [showModal, setShowmodal] = useState(false);
@@ -10,9 +11,9 @@ const Header = () => {
     <>
       <nav className="p-5 mb-10 md:mb-0 md:py-6 md:px-14 md:mx-10 flex justify-between items-center">
         {/* Logo */}
-        <a href="/">
+        <Link href="/">
           <Image src="/mail.svg" width={240} height={60} alt="Logo"></Image>
-        </a>
+        </Link>
         <Image
           onClick={() => setShowmodal(!showModal)}
           src="/hamburger.svg"

@@ -4,7 +4,7 @@ import TableCard from "./TableCard";
 import data from "@/constants/mock.json";
 
 const TableEntryMobile = () => {
-  return data.map((props, idx) => <TableCard idx={idx} {...props}></TableCard>);
+  return data.map((props, idx) => <TableCard key={idx} {...props}></TableCard>);
 };
 
 export default TableEntryMobile;

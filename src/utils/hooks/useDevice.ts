@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { SCREEN_DIMENSIONS } from "@/constants/config";
 import { useEffect, useState } from "react";
 

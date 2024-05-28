@@ -24,7 +24,7 @@ const TableEntryDesktop = () => {
         <TableHeaderUI>Options</TableHeaderUI>
       </>
       {data.map((props, idx) => (
-        <TableEntry idx={idx} {...props}></TableEntry>
+        <TableEntry key={idx} {...props}></TableEntry>
       ))}
     </div>
   );

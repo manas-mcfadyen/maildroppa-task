@@ -4,9 +4,7 @@ import TableEntryMobile from "./TableEntryMobile";
 import { TableEntryProps } from "@/types/table";
 import TableEntryDesktop from "./TableEntryDesktop";
 
-export const TableEntryContainer = (
-  props: PropsWithChildren<TableEntryProps>
-) => {
+export const TableEntryContainer = () => {
   const { isMobile } = useDevice();
   return isMobile ? (
     <TableEntryMobile></TableEntryMobile>

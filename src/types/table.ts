@@ -1,7 +1,7 @@
 import { HTMLAttributes } from "react";
 
 export interface TableEntryProps {
-  idx: number;
+  key: number;
   formName: string;
   formId: string;
   status: string;

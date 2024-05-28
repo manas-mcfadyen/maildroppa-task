@@ -15,8 +15,8 @@ export default function Home() {
         <div>
           <h1 className="text-3xl font-medium w-full mb-2.5">Signup Forms</h1>
           <p>
-            Here's the list of all your forms, Use the report and lifetime key
-            figures to improve their effectiveness over time
+            Here&apos;s the list of all your forms, Use the report and lifetime
+            key figures to improve their effectiveness over time
           </p>
         </div>
         <TableEntryContainer></TableEntryContainer>

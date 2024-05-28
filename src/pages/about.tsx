@@ -14,11 +14,11 @@ export default function About() {
             Finally, an email tool built for startups. Simply drive growth.
           </h1>
           <p>
-            Maildroppa is an email sender that's grounded in principles of
+            Maildroppa is an email sender that&apos;s grounded in principles of
             simplicity. With all the features you need, and none of the
-            distractions you don't, you can get back to the real task at hand…
-            writing engaging emails that connect with your audience and bring in
-            sales.
+            distractions you don&apos;t, you can get back to the real task at
+            hand… writing engaging emails that connect with your audience and
+            bring in sales.
           </p>
         </div>
       </main>
