@@ -1,0 +1,74 @@
+[
+  {
+    "formName": "Default",
+    "formId": "3afceab5-2995-4a0b-b72a-fe12d18a0c12",
+    "status": "ACTIVE",
+    "type": "DEFAULT",
+    "viewTotal": {
+      "value": 1,
+      "formattedValue": "1"
+    },
+    "confirmationTotal": {
+      "value": 0,
+      "formattedValue": "0"
+    },
+    "conversionRate": {
+      "value": 0,
+      "formattedValue": "0%"
+    }
+  },
+  {
+    "formName": "My Slider Form",
+    "formId": "747180e3-6123-495d-a30d-d9955c0dddad",
+    "status": "ACTIVE",
+    "type": "POPUP",
+    "viewTotal": {
+      "value": 1,
+      "formattedValue": "1"
+    },
+    "confirmationTotal": {
+      "value": 0,
+      "formattedValue": "0"
+    },
+    "conversionRate": {
+      "value": 0,
+      "formattedValue": "0%"
+    }
+  },
+  {
+    "formName": "My Popup Form",
+    "formId": "7f4f3119-febb-49a3-99e0-2f2d6298caf1",
+    "status": "ACTIVE",
+    "type": "SLIDER",
+    "viewTotal": {
+      "value": 6,
+      "formattedValue": "6"
+    },
+    "confirmationTotal": {
+      "value": 0,
+      "formattedValue": "0"
+    },
+    "conversionRate": {
+      "value": 0,
+      "formattedValue": "0%"
+    }
+  },
+  {
+    "formName": "My Inline Form",
+    "formId": "ce62a215-f85b-48dd-8297-1412aa80a4ac",
+    "status": "ACTIVE",
+    "type": "INLINE",
+    "viewTotal": {
+      "value": 1,
+      "formattedValue": "1"
+    },
+    "confirmationTotal": {
+      "value": 0,
+      "formattedValue": "0"
+    },
+    "conversionRate": {
+      "value": 0,
+      "formattedValue": "0%"
+    }
+  }
+]

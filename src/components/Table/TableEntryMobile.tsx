@@ -1,0 +1,10 @@
+import { STATUS, TableEntryProps, TdProps, Type } from "@/types/table";
+import React, { HTMLAttributes, PropsWithChildren, useState } from "react";
+import TableCard from "./TableCard";
+import data from "@/constants/mock.json";
+
+const TableEntryMobile = () => {
+  return data.map((props, idx) => <TableCard idx={idx} {...props}></TableCard>);
+};
+
+export default TableEntryMobile;
